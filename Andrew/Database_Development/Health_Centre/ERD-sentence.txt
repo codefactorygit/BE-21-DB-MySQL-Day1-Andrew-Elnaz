@@ -1,0 +1,23 @@
+Unit
+Q: Can a <unit> [have] many <head_doctors>? 
+A: No (one)
+Q: Can a <unit> [admit] many <patients>?
+A: Yes (many)
+
+Head_Doctor
+Q: Can a <doc> [have] many <units>? 
+A: Yes (many)
+Q: Can a <doc> [prescribe] many <interventions>?
+A: Yes (many)
+
+Intervention
+Q: Can an <intervention> [be prescribed by] many <docs>? 
+A: Yes (many)
+Q: Can a <intervention> [be undergone by] many <patients>?
+A: Yes (many)
+
+Intervention
+Q: Can a <patient> [undergo] many <interventions>? 
+A: Yes (many)
+Q: Can a <patient> [be admitted to] many <units>?
+A: No (one)
